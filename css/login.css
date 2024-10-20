@@ -20,7 +20,7 @@ body {
     padding: 40px;
     transform: translate(-50%, -50%);
     background: #242026;
-    box-shadow: 0 15px 25px rgba(244, 23, 23, 0.7);
+    box-shadow: 0 15px 25px rgba(23, 244, 45, 0.7);
     border-radius: 10px;
 }
 
@@ -59,30 +59,30 @@ body {
 .caixa-login .caixa-usuario input:valid~label {
     top: -85px;
     left: 0;
-    color: #ec7c7c;
+    color: #85ec7c;
 }
 
 #submit {
     padding: 10px 20px;
-    color: #dbbdbd;
+    color: #bddbc0;
     font-size: 16px;
     text-decoration: none;
     text-transform: uppercase;
     overflow: hidden;
     transition: .5s;
     letter-spacing: 4px;
-    border: 1px solid #ec7c7c;
+    border: 1px solid #85ec7c;
     margin: auto;
 }
 
 #submit:hover {
-    background: #ec7c7c;
+    background: #85ec7c;
     color: #FFF;
     border-radius: 5px;
-    box-shadow: 0 0 15px #ec7c7c,
-    0 0 25px #ec7c7c,
-    0 0 50px #ec7c7c,
-    0 0 100px #ec7c7c;
+    box-shadow: 0 0 15px #85ec7c,
+    0 0 25px #85ec7c,
+    0 0 50px #85ec7c,
+    0 0 100px #85ec7c;
 }
 
 .botao-form {
@@ -94,7 +94,7 @@ body {
 #registro {
     font-size: 14px;
     text-decoration: none;
-    color: #dbbdbd;
+    color: #bddbbe;
     margin: auto;
     width: 60%;
     text-align: center;
@@ -102,6 +102,6 @@ body {
 
 #registro a {
     margin: auto;
-    color: #ec7c7c;
+    color: #85ec7c;
     text-decoration: none;
 }
